@@ -5,7 +5,7 @@ A practice project where I tested REST API requests in Postman. It was built whi
 ## Tools
 Postman, REST API, JSON
 
-## Requests (run in this order)
+## Requests 
 | # | Request | Method | Endpoint | Expected status | What the test checks |
 |---|---------|--------|----------|-----------------|----------------------|
 | 1 | Login | POST | /auth/login | 200 | Status code. Saves the access token as `token` |
