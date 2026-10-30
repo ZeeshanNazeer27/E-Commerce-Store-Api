@@ -15,8 +15,8 @@ Postman, REST API, JSON
 | 5 | Add Cart | POST | /carts/add | 201 | Status code. Cart contains products. Saves the cart ID as `cart_id` |
 
 ## Error checks
-- Get User Profile with the auth token removed: [write the status code and message you got]
-- Add Cart with a user ID that does not exist: [write the status code and message you got]
+- Get User Profile with the auth token removed: "Access Token is required"
+- Add Cart with a user ID that does not exist: "Product with id '11111' not found"
 
 ## Notes
 DummyJSON is a test API. Actions like adding to a cart are simulated, so the data is not saved on the server.
